@@ -44,5 +44,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy":"https://room-bookingapp-api.onrender.com/"
+  "proxy":"https://room-bookingapp-api.onrender.com"
 }
