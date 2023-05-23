@@ -1,6 +1,6 @@
 .navbar{
     height: 50px;
-    background-color: #003580;
+    background-color: #2f05ad;
     display: flex;
     justify-content: center;
   }
@@ -16,6 +16,10 @@
   
   .logo{
     font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(108, 230, 7);
+    font-size: medium;
+    text-transform:uppercase;
   }
   
   .navButton{

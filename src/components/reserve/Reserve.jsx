@@ -14,9 +14,8 @@ const Reserve = ({ setOpen, hotelId }) => {
   const { dates } = useContext(SearchContext);
 
   const getDatesInRange = (startDate, endDate) => {
-    const start = new Date(startDate);
+    const start = new Date(startDate); 
     const end = new Date(endDate);
-
     const date = new Date(start.getTime());
 
     const dates = [];
