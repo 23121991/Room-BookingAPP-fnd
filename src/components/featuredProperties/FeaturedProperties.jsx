@@ -2,7 +2,13 @@ import useFetch from "../../hooks/useFetch";
 import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
-  const { data, loading, error } = useFetch(`/hotels?featured=true&limit=2`);
+  const { data, loading, error } = useFetch(`https://room-bookingapp-api.onrender.com/api/hotels?featured=true&limit=4`);
+  
+//  if (error) {
+//   return <>
+//       <ErrorH props={error} />
+//   </>
+// };
 
   return (
     <div className="fp">
