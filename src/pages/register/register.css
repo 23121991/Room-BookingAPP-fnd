@@ -1,15 +1,24 @@
-.login {
+.register {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background : linear-gradient(to left bottom,pink, rgb(138, 41, 151), rgb(174, 174, 80));
+    background : linear-gradient(to left bottom,pink, navy, rgb(193, 177, 88));
   }
   
   .lContainer {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 10px;
+  }
+  .lContainer>img{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   
   .lInput{
@@ -30,7 +39,4 @@
   .lButton:disabled{
     background-color: #0071c28c;
     cursor: not-allowed;
-  }
-  .text{
-    color: rgb(241, 248, 250);
   }

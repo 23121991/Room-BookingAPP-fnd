@@ -5,6 +5,7 @@ import { AuthContext } from "../../context/AuthContext";
 import "./login.css";
 
 const Login = () => {
+  const navigate = useNavigate();
   const [credentials, setCredentials] = useState({
     username: undefined,
     password: undefined,
@@ -12,7 +13,7 @@ const Login = () => {
 
   const { loading, error, dispatch } = useContext(AuthContext);
 
-  const navigate = useNavigate()
+ 
 
   const handleChange = (e) => {
     setCredentials((prev) => ({ ...prev, [e.target.id]: e.target.value }));
@@ -30,10 +31,10 @@ const Login = () => {
     }
   };
 
-
   return (
     <div className="login">
       <div className="lContainer">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-H9TGX-ploi12UMy8KPO6VGyR0JDmuDEwzyIGnmpQEsO0r4h-3_ElOK_zYlPcq02rOc&usqp=CAU" alt=""/>
         <input
           type="text"
           placeholder="username"
@@ -52,6 +53,7 @@ const Login = () => {
           Login
         </button>
         {error && <span>{error.message}</span>}
+        <p className="text" >If you have no account ? please<button className="lButton">Create an Account </button></p>
       </div>
     </div>
   );
