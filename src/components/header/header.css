@@ -1,5 +1,5 @@
 .header {
-    background-color: #0b0275;
+  background : linear-gradient(to left bottom,pink, navy, rgb(193, 177, 88));
     color: white;
     display: flex;
     justify-content: center;

@@ -1,6 +1,6 @@
 .navbar{
     height: 50px;
-    background-color: #2f05ad;
+    background : linear-gradient(to top,grey, navy);
     display: flex;
     justify-content: center;
   }

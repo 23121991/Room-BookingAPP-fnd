@@ -14,7 +14,10 @@ const Navbar = () => {
         {user ? user.username : (
           <div className="navItems">
             <button className="navButton">Register</button>
+            <Link to="/login">
             <button className="navButton">Login</button>
+            </Link>
+            
           </div>
         )}
       </div>
